@@ -22,7 +22,8 @@ galleryList.insertAdjacentHTML(
         `<li class="images-item">
         <img class="image"
         src="${element.url}" 
-        alt="${element.alt}">
+        alt="${element.alt}"
+        width = "150" height = "100">
         </li>`,
     )
     .join(''),
